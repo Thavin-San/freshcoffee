@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <style>
+      h4 {
+        color: brown;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 50px;
+        background-color: rgba(128, 72, 4, 0.957);
+      }
+      .logo {
+        color: aliceblue;
+        text-shadow: black 2px 3px 5px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: azure;
+      }
+      nav ul li a:hover {
+        color: rgb(224, 195, 3);
+        cursor: pointer;
+      }
+      footer {
+        background-color: rgb(68, 32, 6);
+        margin-top: 0%;
+        height: 55px;
+        text-align: center;
+        padding: 18px;
+      }
+      footer p {
+        color: aliceblue;
+}
+      section h2{
+      color: rgb(255, 255, 255);
+    
+    }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .input{
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+      }
+      .input{
+        height: inherit;
+        align-content: center;
+      }
+      div input{
+        min-width: 300px;
+        max-width: 500px;
+        height: 50px;
+        padding: 10px;
+        border: 2px solid;
+        border-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: rgb(43, 43, 43) 2px 2px 2px;
+      }
+      div textarea{
+        min-width: 300px;
+        height: 100px;
+        padding: 10px;
+        border: 2px solid;
+        border-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: rgb(43, 43, 43) 2px 2px 2px;
+        
+      }
+      section button{
+        height: 40px;
+        min-width: 100px;
+        color: rgb(125, 56, 4);
+        border-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        box-shadow: rgb(43, 43, 43) 2px 2px 2px;
+      }
+      section {
+        height: 90vh;
+        background-image: url('/images/BLur_Matcha-Infused\ Cold\ Brew\ with\ Black\ Sesame\ Foam.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">Fresh Coffee</h1>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/menu.html">Menu</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+
+  <section>
+      <div class="input">
+        <h2>Contact</h2><br>
+        <div class="input-row" bis_skin_checked="1">
+          <input aria-label="Name" placeholder="Name" type="text" class="required" id="contact_name" name="contact[name]">
+        </div><br>
+        <div class="input-row" bis_skin_checked="1">
+          <input aria-label="Email" placeholder="Email" type="email" class="required" id="contact_email" name="contact[email]">
+        </div><br>
+        <div class="input-row" bis_skin_checked="1">
+          <textarea aria-label="Message" placeholder="Message" id="message" class="required" name="contact[body]"></textarea>
+        </div><br>
+        <button>Send</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>2026 Fresh Coffee. All right reserve.</p>
+    </footer>
+  </body>
+</html>

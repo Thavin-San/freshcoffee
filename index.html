@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Coffee</title>
+    <style>
+      .main_card {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .main_card{
+        height: 90%;
+        background-color: rgb(101, 50, 16);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+      }
+      .card {
+        background-color: rgb(234, 243, 240);
+        width: 250px;
+        padding: 15px;
+        border: 1px solid;
+        text-align: center;
+        border-radius: 5px;
+        overflow: hidden;
+        border-color: rgb(170, 166, 166);
+      }
+      .card img {
+        width: 200px;
+        border-radius: 5px;
+        transition: transform 0.5s ease;
+        margin: 10px;
+      }
+      .card:hover img {
+        transform: scale(1.2);
+      }
+      .image {
+        width: 200px;
+        border-radius: 5px;
+      }
+      p {
+        color: brown;
+        font-family:
+          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+      .button_card {
+        background-color: rgb(11, 105, 212);
+        border: none;
+        width: 100px;
+        height: 25px;
+        border-radius: 10px;
+        color: aliceblue;
+      }
+      button:hover {
+        background-color: brown;
+        cursor: pointer;
+        color: azure;
+      }
+      h4 {
+        color: brown;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 50px;
+        background-color: rgba(128, 72, 4, 0.957);
+      }
+      .logo {
+        color: aliceblue;
+        text-shadow: black 2px 3px 5px;
+        font-size: 1.5rem;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: azure;
+      }
+      nav ul li a:hover {
+        color: rgb(224, 195, 3);
+        cursor: pointer;
+      }
+
+      .hero {
+        height: 40vh;
+        background-image: url(images/Matcha-Infused\ Cold\ Brew\ with\ Black\ Sesame\ Foam.jpeg);
+        background-size: cover;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 30px;
+      }
+      .hero button {
+        width: 350px;
+        height: 30px;
+        border: 1px solid;
+
+        border-color: aliceblue;
+        border-radius: 5px;
+      }
+      .hero button:hover {
+        color: rgba(255, 255, 255, 0.898);
+        background-color: rgb(164, 91, 1);
+      }
+
+      footer {
+        background-color: rgb(68, 32, 6);
+        margin-top: 0%;
+        height: 55px;
+        text-align: center;
+        padding: 18px;
+      }
+      footer p {
+        color: aliceblue;
+}
+      section p {
+        color: aliceblue;
+        text-shadow: black 3px 2px 4px;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">Fresh Coffee</h1>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/menu.html">Menu</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <button>Detail</button><br />
+      <p>Make you fresh during day and impressed</p>
+      <br />
+      <h1>Enjoy with Fresh Coffee</h1>
+    </section>
+
+    <div class="main_card">
+      <div class="card">
+        <h4>Hot Expresso</h4>
+        <img
+          class="image"
+          src="/images/1.png"
+          alt=""
+        />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Ice Latte</h4>
+        <img class="image" src="/images/2.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Ice Matcha</h4>
+        <img class="image" src="/images/3.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Passion Green Tea</h4>
+        <img class="image" src="/images/4.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Peach Green Tea</h4>
+        <img class="image" src="/images/5.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Mocha</h4>
+        <img class="image" src="/images/6.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Mocha Cake Recipe</h4>
+        <img class="image" src="/images/7.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Hamberger</h4>
+        <img class="image" src="/images/8.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Fried chicken</h4>
+        <img class="image" src="/images/9.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+      <div class="card">
+        <h4>Spagatti</h4>
+        <img class="image" src="/images/10.png" alt="" />
+        <p>Make you fresh and strong</p>
+        <div>Price : 2.25$</div>
+        <br />
+        <button class="button_card">Order now</button>
+      </div>
+    </div>
+    <footer>
+      <p>2026 Fresh Coffee. All right reserve.</p>
+    </footer>
+  </body>
+</html>

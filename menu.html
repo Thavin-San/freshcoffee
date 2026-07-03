@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h4 {
+        color: brown;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22px 50px;
+        background-color: rgba(128, 72, 4, 0.957);
+      }
+      .logo {
+        color: aliceblue;
+        text-shadow: black 2px 3px 5px;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: azure;
+        transition: color 0.3s ease;
+      }
+      nav ul li a:hover {
+        color: rgb(224, 195, 3);
+        cursor: pointer;
+      }
+
+      .hero {
+        height: 90vh;
+        background-image: url('/images/BLur_Matcha-Infused\ Cold\ Brew\ with\ Black\ Sesame\ Foam.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 30px;
+        text-align: center;
+        gap: 15px;
+      }
+      .hero h1 {
+        text-shadow: black 3px 2px 4px;
+        font-size: 2.5rem;
+      }
+      .hero p {
+        color: aliceblue;
+        text-shadow: black 3px 2px 4px;
+        font-size: 1.2rem;
+      }
+      .hero button {
+        width: 250px;
+        height: 40px;
+        border: 1px solid aliceblue;
+        background: transparent;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .hero button:hover {
+        color: rgba(255, 255, 255, 0.898);
+        background-color: rgb(164, 91, 1);
+        border-color: rgb(164, 91, 1);
+      }
+
+      footer {
+        background-color: rgb(68, 32, 6);
+        margin-top: 0%;
+        height: 55px;
+        text-align: center;
+        padding: 18px;
+      }
+      footer p {
+        color: aliceblue;
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">Fresh Coffee</h1>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/menu.html">Menu</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+
+
+    <section class="hero">
+      <h1>Welcome to Fresh Coffee</h1>
+      <p>Try our signature Matcha-Infused Cold Brew with Black Sesame Foam.</p>
+      <button>Explore Our Menu</button>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Fresh Coffee. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
